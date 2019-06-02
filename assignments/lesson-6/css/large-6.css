@@ -1,0 +1,18 @@
+li{
+    display: inline;
+}
+.menu{
+    display: none;
+}
+.five-day-forecast{
+    display: block;
+}
+.dayforecast{
+    margin-left: 30%;
+}
+.nav{
+    display: inline !important;
+}
+.navigation a.icon{
+    display: none;
+}
