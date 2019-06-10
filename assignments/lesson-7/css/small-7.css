@@ -1,0 +1,139 @@
+header {
+    font-family: 'Indie Flower', 'Shadows Into Light ', sans-serif;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 10%;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    color: #2f6729;
+    margin: 0px;
+    justify-content: center;
+}
+.motto{
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #438c3b;
+    text-align: center;
+    font-style: italic;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.nav{
+    align-items: center;
+    align-content: center;
+}
+.mylinks{
+    display: none;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    background-color: #2f6729;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 13px;
+}
+.menu{
+    display: none;
+}
+.navigation a.icon{
+    background-color: #2f6729;
+    display: block;
+    color: whitesmoke;
+}
+.active{
+    background-color: #20471c;
+}
+.navigation a:hover{
+    background-color: #438c3b !important;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+h2.town{
+    text-align: center;
+    color: #2f6729;
+    margin-top: 5%;
+}
+main{
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 13px;
+}
+img.hero{
+    display: block;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+.weather{
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 35%;
+    left: 2.5%;
+    background-color: #2f6729;
+    color: white;
+    padding: 1%;
+    }
+.five-day-forecast{
+    display: none;
+}
+h3{
+    text-align: center;
+    color: #2f6729;
+}
+.article{
+    display: block;
+    width: 75%;
+    color: white;
+    background: #2f6729;
+    margin-top: 3%;
+    padding: 0.25%;
+    }
+.article-title{
+    margin-bottom: 0%;
+    }
+p.author{
+    margin-top: 0%;
+    font-size: 11px;
+    }
+.article-1{
+    padding-bottom: 2%;
+    }
+img.spring{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 90%;
+    padding-bottom: 1%;
+    }
+.contact-info{
+    color: #2f6729;
+    }
+.preston{
+    height: 50%;
+    width: 50%;
+    }   
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: #a5a7a5;
+    }

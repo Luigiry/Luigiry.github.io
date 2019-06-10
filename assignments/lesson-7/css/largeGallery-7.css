@@ -1,0 +1,14 @@
+.wrapper{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.nav{
+    flex-direction: row;
+}
+.icon{
+    display: none;
+}
+li{
+    display: inline;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+    <title>Weather Gallery</title>
+    <meta name="description" content="Today's Weather Preston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/smallGallery-7.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px) and (min-width: 500px)" href="css/mediumGallery-7.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="css/largeGallery-7.css">
+</head>
+<body>
+    <header>
+        <div class = header>
+            <img class="logo" src="images/logo.jpeg" alt="weather logo">
+            <h1 class="title"> Today's Weather</h1>
+            <div class="motto">Tomorrow's weather today!</div>
+        </div>
+        <nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+            <ul class="navigation">
+                <div id="myLinks">
+                    <li class="nav"><a href="#" title="Home">Home</a></li>
+                    <li class="nav"><a href="preston-7.html" title="Preston">Preston</a></li>
+                    <li class="nav"><a href="#" title="Soda Springs">Soda Springs</a></li>
+                    <li class="nav"><a href="#" title="Fish Haven">Fish Haven</a></li>
+                    <li class="nav"><a href="#" title="Storm Center">Storm Center</a></li>
+                    <li class="nav active"><a href="#" title="Gallery">Gallery</a></li>
+                </div>
+            </ul>
+                
+        </nav>
+        <script src="js/hamburger.js"></script>
+    </header>
+    <main>
+        <div class="wrapper">    
+            <picture>
+                <source srcset="images/cit230_image_franklinOriginal-large1.jpg" media="(min-width: 500px)">
+                <img class="hero" src="images/cit230_image_franklinOriginal-small.jpeg" alt="sunny field">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+            <picture>
+                <source srcset="images/article.jpeg" media="(min-width: 500px)">
+                <img class="article" src="images/article-small.jpg" alt="sunny purple flowers">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+            <picture>
+                <source srcset="images/hero.jpg" media="(min-width: 500px)">
+                <img class="picture3" src="images/hero-small.jpg" alt="clouds from above">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+            <picture>
+                <source srcset="images/lightning.jpg" media="(min-width: 500px)">
+                <img class="lightning" src="images/lightning-small.jpg" alt="lightning storm">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+            <picture>
+                <source srcset="images/snow.jpg" media="(min-width: 500px)">
+                <img class="snow" src="images/snow-small.jpg" alt="Snowy Tree">
+                <figcaption> Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+            <picture>
+                <source srcset="images/tornado.jpg" media="(min-width: 500px)">
+                <img class="tornado" src="images/tornado-small.jpg" alt="Tornado">
+                <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2019 Ryan Gustin Utah</p>
+        <script src="js/currentdate.js"></script>
+    </footer>
+</body>
+</html>

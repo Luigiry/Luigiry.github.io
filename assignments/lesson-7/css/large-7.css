@@ -1,0 +1,15 @@
+li{
+    display: inline;
+}
+.five-day-forecast{
+    display: block;
+}
+.dayforecast{
+    margin-left: 30%;
+}
+.nav{
+    flex-direction: row;
+}
+.icon{
+    display: none;
+}
