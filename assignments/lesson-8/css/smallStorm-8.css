@@ -1,0 +1,199 @@
+header {
+    font-family: 'Indie Flower', 'Shadows Into Light ', sans-serif;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 10%;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    color: #2f6729;
+    margin: 0px;
+    justify-content: center;
+}
+.motto{
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #438c3b;
+    text-align: center;
+    font-style: italic;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.nav{
+    align-items: center;
+    align-content: center;
+}
+.mylinks{
+    display: none;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    background-color: #2f6729;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 13px;
+}
+.menu{
+    display: none;
+}
+.navigation a.icon{
+    background-color: #2f6729;
+    display: block;
+    color: whitesmoke;
+}
+.active{
+    background-color: #20471c;
+}
+.navigation a:hover{
+    background-color: #438c3b !important;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+header {
+    font-family: 'Indie Flower', 'Shadows Into Light ', sans-serif;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 10%;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    color: #2f6729;
+    margin: 0px;
+    justify-content: center;
+}
+.motto{
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #438c3b;
+    text-align: center;
+    font-style: italic;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.nav{
+    align-items: center;
+    align-content: center;
+}
+.mylinks{
+    display: none;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    background-color: #2f6729;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 13px;
+}
+.menu{
+    display: none;
+}
+.navigation a.icon{
+    background-color: #2f6729;
+    display: block;
+    color: whitesmoke;
+}
+.active{
+    background-color: #20471c;
+}
+.navigation a:hover{
+    background-color: #438c3b !important;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*---Form---*/
+form fieldset{
+    margin: 1em;
+    border: solid #2f6729;
+    border-radius: .5rem;
+}
+legend{
+    color: #2f6729;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #2f6729;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    border: .03125rem solid #2f6729;
+    border-radius: .25rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 18rem;
+    background-color: whitesmoke;
+
+}
+form label.side{
+    display: block;
+    padding: .75rem;
+    color: #2f6729;
+}
+
+form input.button{
+    border: none;
+    background-color: #2f6729;
+    color: white;
+    border-radius: .5rem;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    width: 96%;
+    max-width: 18rem;
+    padding: .75rem 1.5rem;
+}
+textarea{
+    background-color: whitesmoke;
+    border-radius: .25rem;
+    width: 100%;
+    max-width: 18rem;
+}
+form label.top input:required {
+    background-color: #ffc7c7;
+}
+form label.top input:required:valid{
+    background-color: #cafac4;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: #a5a7a5;
+}

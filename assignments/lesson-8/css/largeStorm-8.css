@@ -1,0 +1,9 @@
+li{
+    display: inline;
+}
+.nav{
+    flex-direction: row;
+}
+.icon{
+    display: none;
+}
