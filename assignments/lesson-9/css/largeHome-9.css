@@ -1,0 +1,12 @@
+.nav{
+    flex-direction: row;
+}
+.icon{
+    display: none;
+}
+li{
+    display: inline;
+}
+main section{    
+    grid-template-columns: repeat(3, 1fr);
+}

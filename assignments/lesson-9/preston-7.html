@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+    <title>Preston Weather</title>
+    <meta name="description" content="Today's Weather Preston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-7.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/large-7.css">
+    
+</head>
+<body>
+    <header>
+        <div class = header>
+            <img class="logo" src="images/logo.jpeg" alt="weather logo">
+            <h1 class="title"> Today's Weather</h1>
+            <div class="motto">Tomorrow's weather today!</div>
+        </div>
+        <nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+            <ul class="navigation">
+                <div id="myLinks">
+                    <li class="nav"><a href="home.html" title="Home">Home</a></li>
+                    <li class="nav active"><a href="#" title="Preston">Preston</a></li>
+                    <li class="nav"><a href="#" title="Soda Springs">Soda Springs</a></li>
+                    <li class="nav"><a href="#" title="Fish Haven">Fish Haven</a></li>
+                    <li class="nav"><a href="stormcenter.html" title="Storm Center">Storm Center</a></li>
+                    <li class="nav"><a href="gallery-7.html" title="Gallery">Gallery</a></li>
+                </div>
+            </ul>
+            
+        </nav>
+        <script src="js/hamburger.js"></script>
+    </header>
+    <main>
+        <h2 class="town"> Preston</h2>
+        <article class=article> 
+            <picture>
+                <source srcset="images/cit230_image_franklinOriginal-large.jpeg" media="(min-width: 600px)">
+                <img class="hero" src="images/cit230_image_franklinOriginal-small.jpeg" alt="clouds">
+            </picture>
+            <p class="weather">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 In ipsum felis, laoreet non leo in, sagittis tincidunt tellus.</p>
+        </article>
+        <div class="five-day-forecast">
+            <h3 class="forecast">5 Day Forecast</h3>
+            <img class="dayforecast" src="images/5dayforecast.jpg" alt="Five Day Forecast">
+        </div>
+        <div class="article">
+            <h2 class="article-title">Article</h2>
+            <p class="author">By: Ryan Gustin</p>
+            <p class="article-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ipsum felis, laoreet non leo in, sagittis tincidunt tellus.
+                Aliquam id diam nec ligula tincidunt venenatis. Quisque a mauris quis magna vehicula mollis vel a turpis. Sed aliquet lobortis justo, vitae auctor sem porta a. 
+                Proin at porttitor nibh. Maecenas eget purus vitae neque laoreet volutpat in in diam. Morbi justo dolor, mollis nec elit vel, scelerisque gravida ipsum.
+                Donec facilisis dignissim metus, et tempor nunc rhoncus a. Curabitur consequat ante sit amet mauris sagittis, quis lobortis tortor pharetra. In scelerisque est enim, nec volutpat tortor ultrices id.</p>
+                <picture>
+                    <source srcset="images/article.jpeg" media="(min-width: 600px)">
+                    <img class="spring" src="images/article-small.jpg" alt="clouds with purple flowers">
+                </picture>
+        </div>
+        <article class="contact">
+            <div class="contact-info">
+                <p> Today's Weather<br>
+                Phone: 888-888-8888<br>
+                Email: Fakeemail@todaysweather.com</p>
+                <picture>
+                    <source srcset="images/preston.gif" media="(min-width: 600px)">
+                    <img class="preston" src="images/preston-small.jpg" alt="map of Preston">
+                </picture>
+            </div>
+        </article>
+    </main>
+    <footer>
+            <p>&copy; 2019 Ryan Gustin Utah</p>
+            <script src="js/currentdate.js"></script>
+    </footer>
+</body>
+</html>
