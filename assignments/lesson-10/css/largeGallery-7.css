@@ -1,0 +1,18 @@
+.wrapper{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.navigation{
+    text-align: center;
+}
+.nav{
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+.icon{
+    display: none;
+}
+li{
+    display: inline;
+}

@@ -1,0 +1,99 @@
+li{
+    display: inline;
+}
+h2.forecast{
+    display: block;
+    text-align: center;
+    color: #2f6729;
+    font-size: 1.5rem;
+}
+.navigation{
+    text-align: center;
+}
+.dayforecast{
+    margin-left: 30%;
+}
+.nav{
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+.icon{
+    display: none;
+}
+div.five-day-forecast {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 0px;
+    align-items: center; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: auto;
+}
+#forecast1h {
+    grid-column: 1;
+    grid-row: 1;
+}
+#forecast1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+#forecast2h {
+    grid-column: 2;
+    grid-row: 1;
+}
+#forecast2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+#forecast3h {
+    grid-column: 3;
+    grid-row: 1;
+}
+#forecast3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+#forecast4h {
+    grid-column: 4;
+    grid-row: 1;
+}
+#forecast4 {
+    grid-column: 4;
+    grid-row: 2;
+}
+#forecast5h {
+    grid-column: 5;
+    grid-row: 1;
+}
+#forecast5 {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+#forecast1h, #forecast2h, #forecast3h, #forecast4h, #forecast5h {
+    font-size: 1.25rem;
+    max-width: 100%;
+    border: 2px solid #2f6729;
+    border-radius: .25rem;
+    text-align: center;
+}
+
+#forecast1, #forecast2, #forecast3, #forecast4, #forecast5 {
+    max-width: 100%;
+    background-color: #438c3b;
+    border: 2px solid#2f6729;    
+    border-radius: .25rem;
+    color: white;
+    text-align: center;
+}
+
+.forecast-header {
+    background-color: #438c3b;
+    color: white;
+}
+
+/*#forecast img {
+    max-width: 6rem;
+}*/
