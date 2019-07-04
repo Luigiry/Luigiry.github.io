@@ -90,8 +90,7 @@ img.hero{
 }
 .weather{
     position: absolute;
-    height: auto;
-    width: 40%;
+    max-width: 50%;
     top: 35%;
     left: 2.5%;
     background-color: #2f6729;
