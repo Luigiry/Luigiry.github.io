@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+    <title>Storm Center</title>
+    <meta name="description" content="Today's Weather Preston">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/smallStorm-8.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/largeStorm-8.css">
+    </head>
+<body>
+        <header>
+                <div class = header>
+                    <img class="logo" src="images/logo.jpeg" alt="weather logo">
+                    <h1 class="title"> Today's Weather</h1>
+                    <div class="motto">Tomorrow's weather today!</div>
+                </div>
+                <nav>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <ul class="navigation">
+                        <div id="myLinks">
+                            <li class="nav"><a href="home.html" title="Home">Home</a></li>
+                            <li class="nav"><a href="preston-7.html" title="Preston">Preston</a></li>
+                            <li class="nav"><a href="#" title="Soda Springs">Soda Springs</a></li>
+                            <li class="nav"><a href="#" title="Fish Haven">Fish Haven</a></li>
+                            <li class="nav active"><a href="#" title="Storm Center">Storm Center</a></li>
+                            <li class="nav"><a href="gallery-7.html" title="Gallery">Gallery</a></li>
+                        </div>
+                    </ul>
+                    
+                </nav>
+                <script src="js/hamburger.js"></script>
+            </header>
+    <main>
+        <form method="get" action="thanks.html" id="stormform">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" minlength="5" pattern="[a-zA-Z\s]+" required></label>
+                <label class="top">Email <input type="text" name="Email" placeholder="youremail@email.com"></label>
+                <label class="top">Phone Number* <input type="tel" name="Phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="Zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="storm date"></label>
+                <label class="top">Storm Type <input list="storm types" placeholder="Please Select"></label>
+                <datalist id="storm types">
+                    <option value=""></option>
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+                <label class="side">Storm Severity <br> 1<input type="range" name="storm severity" min="1" mas="10">10</label>
+                <label class="top">Storm Region
+                    <select name="storm region">
+                        <option value="">Select Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Sugar City">Sugar City</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <div>Are you in danger?</div>
+                <label class="side"><input type="radio" name="are you in danger" value="Yes">Yes</label>
+                <label class="side"><input type="radio" name="are you in danger" value="Maybe">Maybe</label>
+                <label class="side"><input type="radio" name="are you in danger" value="No">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Comments</legend>
+                <textarea name="comment" from="stormform" placeholder="Additional information or comments"></textarea>
+            </fieldset>
+            <input type="submit" value="Report Storm" class="button">
+        </form>
+    </main>
+    <footer>
+            <p>&copy; 2019 Ryan Gustin Utah</p>
+            <script src="js/currentdate.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+header {
+    font-family: Indie Flower, Shadows Into Light, sans-serif;
+    width: 100%;
+    }
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.logo{
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 10%;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    color: #2f6729;
+    margin: 0px;
+    justify-content: center;
+    }
+.motto{
+    font-size: 15px;
+    color: #438c3b;
+    text-align: center;
+    font-style: italic;
+    }
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    }
+.nav{
+    align-items: center;
+    align-content: center;
+}
+.mylinks{
+    display: none;
+    }
+li{
+    list-style-type: none;
+    list-style: none;
+    background-color: #2f6729;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 13px;
+    }
+.menu{
+    display: none;
+}
+.navigation a.icon{
+    background-color: #2f6729;
+    display: block;
+    color: whitesmoke;
+}
+.active{
+    background-color: #20471c;
+    }
+.navigation a:hover{
+    background-color: #438c3b !important;
+    }
+a {
+    color: inherit;
+    text-decoration: inherit;
+    }
+.wrapper{
+    display: grid;
+    row-gap: 1em;
+    
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: #a5a7a5;
+    }

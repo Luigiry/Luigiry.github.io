@@ -1,0 +1,179 @@
+header {
+    font-family: Indie Flower, Shadows Into Light, sans-serif;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 10%;
+    width: 10%;
+}
+.title{
+    justify-content: center;
+    color: #2f6729;
+    margin: 0px;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.motto{
+    justify-content: flex-end;
+    font-size: .75rem;
+    color: #438c3b;
+    text-align: center;
+    font-style: italic;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.nav{
+    align-items: center;
+    align-content: center;
+}
+.mylinks{
+    display: none;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    background-color: #2f6729;
+    color: whitesmoke;
+    margin: 1%;
+    font-size: 13px;
+}
+.menu{
+    display: none;
+}
+.navigation a.icon{
+    background-color: #2f6729;
+    display: block;
+    color: whitesmoke;
+}
+.active{
+    background-color: #20471c;
+}
+.navigation a:hover{
+    background-color: #438c3b !important;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+h2.town{
+    text-align: center;
+    color: #2f6729;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+main{
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 13px;
+}
+img.hero{
+    display: block;
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+#summary-title{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.weather{
+    position: absolute;
+    max-width: 50%;
+    top: 42%;
+    left: 2.5%;
+    background-color: #2f6729;
+    color: white;
+    padding: 1%;
+    display: inline;
+    }
+.labels{
+    display: inline;
+}
+h2.forecast{
+    display: none;
+}
+div.five-day-forecast{
+    display: none;
+}
+h2#townevents{
+    text-align: center;
+    color: #2f6729;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+#events{
+    text-align:center;
+    color: #2f6729;
+    max-width: auto;
+}
+#events p{
+    border: 2px solid #2f6729;
+    border-radius: .25rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    color: #2f6729;   
+}
+.article{
+    display: block;
+    width: 75%;
+    color: white;
+    background: #2f6729;
+    margin-top: 3%;
+    padding: 0.25%;
+    }
+.article-title{
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+    }
+p.author{
+    margin-top: 0%;
+    font-size: 11px;
+    }
+.article-1{
+    padding-bottom: 2%;
+    }
+img.spring{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 90%;
+    padding-bottom: 1%;
+    }
+#contact{
+    font-size: 1.5rem;
+}
+.contact-info{
+    color: white;
+    }
+#preston{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 50%;
+    }   
+
+#thankYou {
+    color: #2f6729;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: #a5a7a5;
+    }
