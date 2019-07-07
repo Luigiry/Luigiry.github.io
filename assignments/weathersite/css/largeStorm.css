@@ -1,0 +1,13 @@
+.navigation{
+    text-align: center;
+}
+li{
+    display: inline;
+}
+.nav{
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+.icon{
+    display: none;
+}

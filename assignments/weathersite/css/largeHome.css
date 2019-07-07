@@ -1,0 +1,16 @@
+.navigation{
+    text-align: center;
+}
+.nav{
+    flex-direction: row;
+    font-size: 1.1rem;
+}
+.icon{
+    display: none;
+}
+li{
+    display: inline;
+}
+main section{    
+    grid-template-columns: repeat(3, 1fr);
+}
