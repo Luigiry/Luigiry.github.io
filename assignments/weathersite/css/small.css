@@ -30,6 +30,9 @@ header {
     text-align: center;
     font-style: italic;
 }
+div#mylinks{
+    display: none !important;
+}
 .navigation{
     display: flex;
     justify-content:center;
@@ -39,9 +42,7 @@ header {
     align-items: center;
     align-content: center;
 }
-.mylinks{
-    display: block;
-}
+
 li{
     list-style-type: none;
     list-style: none;
@@ -49,14 +50,6 @@ li{
     color: whitesmoke;
     margin: 1%;
     font-size: 13px;
-}
-/*div#mylinks{
-    display: none;
-}*/
-.navigation a.icon{
-    background-color: #2f6729;
-    display: block;
-    color: whitesmoke;
 }
 .active{
     background-color: #0e200c;

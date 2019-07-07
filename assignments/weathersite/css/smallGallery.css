@@ -37,7 +37,7 @@ header {
     align-items: center;
     align-content: center;
 }
-.mylinks{
+#mylinks{
     display: none;
     }
 li{
@@ -48,16 +48,8 @@ li{
     margin: 1%;
     font-size: 13px;
     }
-.menu{
-    display: none;
-}
-.navigation a.icon{
-    background-color: #2f6729;
-    display: block;
-    color: whitesmoke;
-}
 .active{
-    background-color: #20471c;
+    background-color: #0e200c;
     }
 .navigation a:hover{
     background-color: #438c3b !important;
