@@ -1,0 +1,341 @@
+{"temples":[{
+    "address": {
+        "street": "175 N 300 E",
+        "city": "Logan",
+        "state_abbr": "UT",
+        "state": "Utah",
+        "postal": "84321-4720",
+        "country": "United States"
+    },    
+    "phone": "435-752-3611",
+    "email": "email@logantemple.org",
+    "services": [
+        { "service" : "Clothing rental available"},
+        { "service" : "Cafeteria available"},
+        { "service" : "No patron housing available"},
+        { "service" : "No distribution center nearby"}
+    ],
+    "images" : {
+        "small" : "rexburg-temple-320w.jpg",
+        "large" : "rexburg-temple-635w.jpg",
+        "image_description" : "Married couple in front of the Rexburg Idaho Temple"
+    },
+    "milestones" : [
+        { "date" : "6 October 1876", "title" : "Announced", "url_title" : "", "url": "" },
+        { "date" : "18 May 1877", "title" : "Groundbreaking", "url_title" : "", "url": "" },
+        { "date" : "17 May 1884", "title": "Dedicated", "url_title" : "dedicatory prayer", "url" : "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple/prayer/1884-05-17" },
+        { "date" : "13 March 1979", "title": "Rededicated", "url_title" : "dedicatory prayer", "url": "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple/prayer/1979-03-13" }
+    ],
+    "ordinance_schedule" : {
+        "baptism": {
+            "church_groups": [
+                {"time_from": "4:00 PM", "time_to": "7:30 PM", "info": "Appointments Only"}    
+            ],
+            "family_priority_time": [
+                {"time_from": "4:00 PM", "time_to": "7:30 PM", "info": "Walk-ins and Appointments"} 
+            ]
+        },
+        "initiatory": [
+            {"time_from": "6:30 AM", "time_to": "8:00 PM","info": "Walk-ins Only"}
+        ],
+        "endowment": [
+            { "start_time" : "7:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:30 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "8:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "8:30 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "9:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "9:30 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "10:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "10:30 AM", "info": "Walk-ins and Appointments"},
+            { "Start_time" : "11:00 AM", "info": "Walk-ins and Appointments"},
+            { "Start_time" : "11:30 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "12:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "12:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "1:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "1:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "2:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "2:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "3:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "3:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "4:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "4:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "5:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "5:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "8:00 PM", "info": "Walk-ins and Appointments"}
+        ],
+        "sealing": [
+            {"time_from": "7:00 AM", "time_to": "8:00 PM", "info": "Walk-ins and Appointments"}
+        ]
+    },
+    "closures" : [
+        {"year": "2019", "closed": [
+            {"date_from": "Monday, 22 July 2019", "date_to": "Monday, 5 August 2019"},
+            {"date_from": "Saturday, 5 October", "date_to": ""},
+            {"date_from": "Wednesday, 27 November 2019", "date_to": "Thursday, 28 November 2019"},
+            {"date_from": "Tuesday, 24 December 2019", "date_to": "Wednesday, 25 December 2019"},
+            {"date_from": "Tuesday, 31 December 2019", "date_to": "Wednesday, 1 January 2020"}
+        ]},
+        {"year": "2020", "closed": [
+            {"date_from": "Wednesday, 1 January 2020", "date_to": ""},
+            {"date_from": "Monday, 10 February 2020", "date_to": "Monday, 24 February 2020"},
+            {"date_from": "Saturday, 4 April 2020", "date_to": ""},
+            {"date_from": "Saturday, 4 July 2020", "date_to": ""},
+            {"date_from": "Monday, 20 July 2020", "date_to": "Monday, 3 August 2020"},
+            {"date_from": "Saturday, 3 October 2020", "date_to": ""},
+            {"date_from": "Thursday, 26 November 2020", "date_to": ""},
+            {"date_from": "Thursday, 24 December 2020", "date_to": "Friday, 25 December 2020"},
+            {"date_from": "Thursday, 31 December 2020", "date_to": "Friday, 1 January 2021"}
+        ]} 
+    ],
+    "summary": "Home of the Agricultural College of Utah",
+    "openweathermap_cityid" : "5777544"
+},
+{
+    "address": {
+        "street": "2808 148th Ave SE",
+        "city": "Bellevue",
+        "state_abbr": "WA",
+        "state": "Washington",
+        "postal": "98007-6453",
+        "country": "United States"
+    },    
+    "phone": "425-643-5144",
+    "email": "email@seattletemple.org",
+    "services": [
+        { "service" : "Clothing rental available"},
+        { "service" : "Cafeteria available"},
+        { "service" : "No patron housing available"},
+        { "service" : "Distribution center nearby"}
+    ],
+    "images" : {
+        "small" : "idahofalls-temple-320w.jpg",
+        "large" : "idahofalls-temple-635w.jpg",
+        "image_description" : "View of the Idaho Falls Temple"
+    },
+    "milestones" : [
+        { "date" : "15 November 1975", "title" : "Announced", "url_title" : "", "url": "" },
+        { "date" : "27 May 1978", "title" : "Groundbreaking", "url_title" : "", "url": "" },
+        { "date" : "17 November 1980", "title": "Dedicated", "url_title" : "dedicatory prayer", "url" : "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple/prayer/1980-11-17" }
+    ],
+    "ordinance_schedule" : {
+        "baptism": {
+            "church_groups": [ 
+                {"time_form": "5:00 PM", "time_to": "8:30 PM", "info": "Church Groups-Appointmets Only"}   
+            ],
+            "family_priority_time": [
+                {"time_from": "7:00 AM", "time_to": "8:00 AM", "info": "Walk-ins and Appointments"},
+                {"time_from": "8:30 AM", "time_to": "3:30 PM", "info": "Walk-ins Only"},
+                {"time_from": "4:00 PM", "time_to": "5:00 PM", "info": "Walk-ins and Appointments"} 
+            ]
+        },
+        "initiatory": [
+            { "time_from" : "7:30 AM", "time_to": "8:30 PM", "info": "Walk-ins and Appointments"}
+        ],
+        "endowment": [
+            { "start_time" : "8:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "9:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "10:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "11:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "12:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "1:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "2:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "3:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "4:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "5:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:30 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:30 PM", "info": "Walk-ins and Appointments"}
+        ],
+        "sealing": [
+            {"time_from": "9:00 AM", "time_to": "8:00 PM", "info": "Walk-ins and Appointments"}
+        ]
+    },
+    "closures" : [
+        {"year": "2019", "closed": [
+            {"date_from": "Sunday, 18 August 2019", "date_to": "Monday, 2 September 2019"},
+            {"date_from": "Saturday, 5 October 2019", "date_to": ""},
+            {"date_from": "Wednesday, 27 November 2019", "date_to": "Thursday, 28 November 2019"},
+            {"date_from": "Tuesday, 24 December 2019", "date_to": "Wednesday, 25 December 2019"}
+        ]},
+        {"year": "2020", "closed": [
+            {"date_from": "Wednesday, 1 January 2020", "date_to": ""},
+            {"date_from": "Monday, 10 February 2020", "date_to": "Monday, 24 February 2020"},
+            {"date_from": "Saturday, 4 April 2020", "date_to": ""},
+            {"date_from": "Saturday, 4 July 2020", "date_to": ""},
+            {"date_from": "Sunday, 9 August 2020", "date_to": "Monday, 24 August 2020"},
+            {"date_from": "Saturday, 3 October 2020", "date_to": ""},
+            {"date_from": "Wednesday, 25 November 2020", "date_to": "Thursday, 26 November 2020"},
+            {"date_from": "Thursday, 24 December 2020", "date_to": "Friday, 25 December 2020"}
+        ]} 
+    ],
+    "summary": "Beautiful location on a hill nestled among evergreens",
+    "openweathermap_cityid" : "5786882"
+},
+{
+    "address": {
+        "street": "13600 Kruse Oaks Blvd",
+        "city": "Lake Oswego",
+        "state_abbr": "OR",
+        "state": "Oregon",
+        "postal": "97035-8602",
+        "country": "United States"
+    },    
+    "phone": "503-639-7066",
+    "email": "email@portlandtemple.org",
+    "services": [
+        { "service" : "Clothing rental available"},
+        { "service" : "Cafeteria available"},
+        { "service" : "No patron housing available"},
+        { "service" : "Distribution center nearby"}
+    ],
+    "images" : {
+        "small" : "laie-temple-320w.jpg",
+        "large" : "laie-temple-635w.jpg",
+        "image_description" : "Church members standing in front of the Laie Hawaii Temple."
+    },
+    "milestones" : [
+        { "date" : "7 April 1984", "title" : "Announced", "url_title" : "", "url": "" },
+        { "date" : "20 September 1986", "title" : "Groundbreaking", "url_title" : "", "url": "" },
+        { "date" : "19 August 1989", "title": "Dedicated", "url_title" : "dedicatory prayer", "url" : "https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple/prayer/1989-08-19" }
+    ],
+    "ordinance_schedule" : {
+        "baptism": {
+            "church_groups": [
+                {"time_from": "5:30 PM", "time_to": "8:00 PM", "info": "Appointments Only"}  
+            ],
+            "family_priority_time": [
+                {"time_from": "7:00 AM", "time_to": "5:30 PM", "info": "Walk-ins and Appointments"} 
+            ]
+        },
+        "initiatory": [
+            { "time_from" : "7:00 AM", "time_to": "8:30 PM", "info": "Walk-ins Only"}
+        ],
+        "endowment": [
+            { "start_time" : "7:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "8:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "9:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "10:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "11:00 AM", "info": "Walk-ins Only"},
+            { "start_time" : "12:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "1:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "2:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "3:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "4:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "5:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "6:00 PM", "info": "Walk-ins Onlyl"},
+            { "start_time" : "7:00 PM", "info": "Walk-ins Only"},
+            { "start_time" : "7:30 PM", "info": "Walk-ins Only"}
+        ],
+        "sealing": [
+            {"time_from": "7:00 AM", "time_to": "8:30 PM", "info": "Walk-ins and Appointments"}
+        ]
+    },
+    "closures" : [
+        {"year": "2019", "closed": [
+            {"date_from": "Monday, 29 July 2019", "date_to": "Monday, 12 August 2019"},
+            {"date_from": "Saturday, 5 October 2019", "date_to": ""},
+            {"date_from": "Wednesday, 27 November 2019", "date_to": ""},
+            {"date_from": "Thursday, 28 November 2019", "date_to": ""},
+            {"date_from": "Tuesday, 24 December 2019", "date_to": "Wednesday, 25 December 2019"}
+        ]},
+        {"year": "2020", "closed": [
+            {"date_from": "Wednesday, 1 January 2020", "date_to": ""},
+            {"date_from": "Monday, 3 February 2020", "date_to": "Monday, 24 February 2020"},
+            {"date_from": "Saturday, 4 April 2020", "date_to": ""},
+            {"date_from": "Saturday, 4 July 2020", "date_to": ""},
+            {"date_from": "Monday, 20 July 2020", "date_to": "Monday, 10 August 2020"},
+            {"date_from": "Saturday, 3 October 2020", "date_to": ""},
+            {"date_from": "Thursday, 26 November 2020", "date_to": ""},
+            {"date_from": "Thursday, 24 December 2020", "date_to": "Friday, 25 December 2020"}
+        ]} 
+    ],
+    "summary": "Live where you play",
+    "openweathermap_cityid" : "5735724"
+},
+{
+    "address": {
+        "street": "250 E 400 S",
+        "city": "St. George",
+        "state_abbr": "UT",
+        "state": "Utah",
+        "postal": "84770-3699",
+        "country": "United States"
+    },    
+    "phone": "435-673-3533",
+    "email": "email@stgeorgetemple.org",
+    "services": [
+        { "service" : "Clothing rental available"},
+        { "service" : "Cafeteria available"},
+        { "service" : "Patron housing available"},
+        { "service" : "Distribution center nearby"}
+    ],
+    "images" : {
+        "small" : "stgeorge-temple-320w.jpg",
+        "large" : "stgeorge-temple-635w.jpg",
+        "image_description" : "Side view of the St. George Utah Temple"
+    },
+    "milestones" : [
+        { "date" : "9 November 1871", "title" : "Announced", "url_title" : "", "url": "" },
+        { "date" : "9 November 1871", "title" : "Groundbreaking", "url_title" : "", "url": "" },
+        { "date" : "6 April 1877", "title": "Dedicated", "url_title" : "dedicatory prayer", "url" : "https://www.churchofjesuschrist.org/temples/details/st.-george-utah-temple/prayer/1877-04-06" },
+        { "date" : "11 November 1975", "title": "Rededicated", "url_title" : "dedicatory prayer", "url" : "https://www.churchofjesuschrist.org/temples/details/st.-george-utah-temple/prayer/1975-11-11" }
+    ],
+    "ordinance_schedule" : {
+        "baptism": {
+            "church_groups": [
+                {"time_from": "8:00 PM", "time_to": "9:00 PM", "info": "Appointments Only"}    
+            ],
+            "family_priority_time": [
+                {"time_from": "6:00 AM", "time_to": "7:30 PM", "info": "Walk-ins Only"}
+            ]
+        },
+        "initiatory": [
+            { "time_from" : "7:00 AM", "time_to": "8:15 PM", "info": "Walk-ins and Appointments"}
+        ],
+        "endowment": [
+            { "start_time" : "6:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:40 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:20 AM", "info": "Walk-ins and Appointments - Samoan"},
+            { "start_time" : "8:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "8:40 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "9:20 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "10:00 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "10:40 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "11:20 AM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "12:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "12:40 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "1:20 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "2:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "2:40 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "3:20 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "4:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "4:40 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "5:20 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:00 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "6:40 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "7:20 PM", "info": "Walk-ins and Appointments"},
+            { "start_time" : "8:00 PM", "info": "Walk-ins and Appointments"}
+        ],
+        "sealing": [
+            {"time_from": "7:20 AM", "time_to": "8:40 PM", "info": "Walk-ins and Appointments"}
+        ]
+    },
+    "closures" : [
+        {"year": "2019", "closed": [
+            {"date_from": "Wednesday, 24 July 2019", "date_to": ""},
+            {"date_from": "Monday, 2 September 2019", "date_to": ""},
+            {"date_from": "Monday, 9 September 2019", "date_to": "Saturday, 21 September 2019"},
+            {"date_from": "Saturday, 5 October 2019", "date_to": ""},
+            {"date_from": "Monday, 4 November 2019", "date_to": "Friday, 4 November 2022"}
+        ]}
+    ],
+    "summary": "Beautiful dessert.",
+    "openweathermap_cityid" : "5546220"
+}
+
+]}
