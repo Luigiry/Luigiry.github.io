@@ -16,9 +16,9 @@
         { "service" : "No distribution center nearby"}
     ],
     "images" : {
-        "small" : "rexburg-temple-320w.jpg",
-        "large" : "rexburg-temple-635w.jpg",
-        "image_description" : "Married couple in front of the Rexburg Idaho Temple"
+        "small" : "logan-sunset300.jpg",
+        "large" : "logan-sunset700.jpg",
+        "image_description" : "The Logan Temple at sunset from the air"
     },
     "milestones" : [
         { "date" : "6 October 1876", "title" : "Announced", "url_title" : "", "url": "" },
@@ -112,9 +112,9 @@
         { "service" : "Distribution center nearby"}
     ],
     "images" : {
-        "small" : "idahofalls-temple-320w.jpg",
-        "large" : "idahofalls-temple-635w.jpg",
-        "image_description" : "View of the Idaho Falls Temple"
+        "small" : "seattle-temple300.jpg",
+        "large" : "seattle-temple700.jpg",
+        "image_description" : "The Seattle Temple lit up on a cloudy night"
     },
     "milestones" : [
         { "date" : "15 November 1975", "title" : "Announced", "url_title" : "", "url": "" },
@@ -194,9 +194,9 @@
         { "service" : "Distribution center nearby"}
     ],
     "images" : {
-        "small" : "laie-temple-320w.jpg",
-        "large" : "laie-temple-635w.jpg",
-        "image_description" : "Church members standing in front of the Laie Hawaii Temple."
+        "small" : "portland-temple300.jpg",
+        "large" : "portland-temple700.jpg",
+        "image_description" : "The pool with the Portland Temple behind "
     },
     "milestones" : [
         { "date" : "7 April 1984", "title" : "Announced", "url_title" : "", "url": "" },
@@ -275,9 +275,9 @@
         { "service" : "Distribution center nearby"}
     ],
     "images" : {
-        "small" : "stgeorge-temple-320w.jpg",
-        "large" : "stgeorge-temple-635w.jpg",
-        "image_description" : "Side view of the St. George Utah Temple"
+        "small" : "st-george-temple300.jpg",
+        "large" : "st-george-temple700.jpg",
+        "image_description" : "St. George Temple with the red rocks behind"
     },
     "milestones" : [
         { "date" : "9 November 1871", "title" : "Announced", "url_title" : "", "url": "" },
