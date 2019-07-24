@@ -16,8 +16,8 @@
         { "service" : "No distribution center nearby"}
     ],
     "images" : {
-        "small" : "logan-sunset300.jpeg",
-        "large" : "logan-sunset700.jpeg",
+        "small" : "logan-sunset300.jpg",
+        "large" : "logan-sunset700.jpg",
         "image_description" : "The Logan Temple at sunset from the air"
     },
     "milestones" : [
