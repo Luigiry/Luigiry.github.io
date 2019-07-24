@@ -1,5 +1,6 @@
 {"temples":[{
     "address": {
+        "name": "Logan",
         "street": "175 N 300 E",
         "city": "Logan",
         "state_abbr": "UT",
@@ -96,6 +97,7 @@
 },
 {
     "address": {
+        "name": "Seattle",
         "street": "2808 148th Ave SE",
         "city": "Bellevue",
         "state_abbr": "WA",
@@ -178,6 +180,7 @@
 },
 {
     "address": {
+        "name": "Portland",
         "street": "13600 Kruse Oaks Blvd",
         "city": "Lake Oswego",
         "state_abbr": "OR",
@@ -259,6 +262,7 @@
 },
 {
     "address": {
+        "name": "St. George",
         "street": "250 E 400 S",
         "city": "St. George",
         "state_abbr": "UT",
