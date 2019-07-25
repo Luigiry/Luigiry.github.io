@@ -11,7 +11,7 @@ header {
 #header{
     margin-left: auto;
     margin-right: auto;
-    background-color: lightskyblue;
+    background-color: #409adf;
     width: 100%;
     border: 2px solid #3c749e;
     border-radius: .5rem;
@@ -162,7 +162,7 @@ article{
     margin-top: .5rem;
     padding: .25rem;
     width: 90%;
-    border: .125rem solid #407297;
+    border: .125rem solid #2a5f88;
     border-radius: .5rem;
 }
 h2,h3,h4,h5{
