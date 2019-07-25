@@ -46,14 +46,7 @@ function createTempleInfo(temples, idx, summaryOnly) {
 
     let templeInfoContainer = (summaryOnly) ? document.querySelector('.temple-summary-container') : document.querySelector('.temple-detail-container');          
 
-// ******** CREATE "TEMPLE TITLE" DIV ************************
-    
-let tDivTitle = document.createElement('div');
-tDivTitle.setAttribute("class", "temple-title");
-let tH2Title = document.createElement('h2');   
 
-tH2Title.textContent = temples[idx].address.name + " " + temples[idx].address.state + " Temple";
-tDivTitle.appendChild(tH2Title);
 
 // ******** ERROR MESSAGE - NO DATA FOUND ************************
     //If No Data Exists, then show ERROR message
@@ -76,9 +69,44 @@ tDivTitle.appendChild(tH2Title);
         return;
     }
 
+// ******** CREATE "TEMPLE TITLE" DIV ************************
+    
+    let tDivTitle = document.createElement('div');
+    tDivTitle.setAttribute("class", "temple-title");
+    let tH2Title = document.createElement('h2');   
 
+    tH2Title.textContent = temples[idx].address.name + " " + temples[idx].address.state + " Temple";
+    tDivTitle.appendChild(tH2Title);
 
+// ******** CREATE "TEMPLE PIC" DIV ************************
+    let tDivPic = document.createElement('div');
+    tDivPic.setAttribute("class", "temple-pic");
+    let tPic = document.createElement('picture');
+    let tPicSrcSmall = document.createElement('source');
+    let tPicSrcLarge = document.createElement('source');
+    let tPicImg = document.createElement('img');
 
+    tPicSrcSmall.media = "(min-width: 300px)";
+    tPicSrcSmall.srcset = "images/" + temples[idx].images.small;
+
+    tPicSrcLarge.media = "(min-width: 700px)";
+    tPicSrcLarge.srcset = "images/" + temples[idx].images.large;
+
+    tPicImg.src = "images/" + temples[idx].images.small;
+    tPicImg.alt = temples[idx].images.image_description;
+
+    tPic.appendChild(tPicSrcSmall);
+    tPic.appendChild(tPicSrcLarge);
+    tPic.appendChild(tPicImg);
+    tDivPic.appendChild(tPic);
+
+// ******** CREATE "TEMPLE SUMMARY" DIV ************************
+    let tDivSummary = document.createElement('div');
+    tDivSummary.setAttribute("class", "temple-summary");
+
+    let tPWeather = document.createElement('p');
+    tPWeather.setAttribute("class", "temple-weather");
+    getTempleCityWeather(temples[idx].openweathermap_cityid, tDivSummary, tPWeather);
 
 // ******** CREATE "TEMPLE INFO" DIV ************************    
         var tDivInfo = document.createElement('div');
@@ -110,37 +138,6 @@ tDivTitle.appendChild(tH2Title);
         tPServices.innerHTML =  "<strong>Services</strong>" + br + tStr;
         tDivInfo.appendChild(tPServices);
 
-
-
-// ******** CREATE "TEMPLE PIC" DIV ************************
-    let tDivPic = document.createElement('div');
-    tDivPic.setAttribute("class", "temple-pic");
-    let tPic = document.createElement('picture');
-    let tPicSrcSmall = document.createElement('source');
-    let tPicSrcLarge = document.createElement('source');
-    let tPicImg = document.createElement('img');
-
-    tPicSrcSmall.media = "(min-width: 30px)";
-    tPicSrcSmall.srcset = "images/" + temples[idx].images.small;
-
-    tPicSrcLarge.media = "(min-width: 700px)";
-    tPicSrcLarge.srcset = "images/" + temples[idx].images.large;
-
-    tPicImg.src = "images/" + temples[idx].images.small;
-    tPicImg.alt = temples[idx].images.image_description;
-
-    tPic.appendChild(tPicSrcSmall);
-    tPic.appendChild(tPicSrcLarge);
-    tPic.appendChild(tPicImg);
-    tDivPic.appendChild(tPic);
-
-// ******** CREATE "TEMPLE SUMMARY" DIV ************************
-    let tDivSummary = document.createElement('div');
-    tDivSummary.setAttribute("class", "temple-summary");
-
-    let tPWeather = document.createElement('p');
-    tPWeather.setAttribute("class", "temple-weather");
-    getTempleCityWeather(temples[idx].openweathermap_cityid, tDivSummary, tPWeather);
 
 // ******** CREATE "TEMPLE DETAIL" DIV ************************
         var tDivDetail = document.createElement('div');
@@ -259,28 +256,19 @@ tDivTitle.appendChild(tH2Title);
         tPMileStones.innerHTML = tStr;
         tDivDetail.appendChild(tPMileStones);
 
-    //Add Learn More Button if Summary
-    /*if (summaryOnly) {
-        let tALearnMore = document.createElement('a');
-        tALearnMore.setAttribute("class", "button");
-        tALearnMore.href = "temples.html?tid=" + idx;
-        tALearnMore.innerHTML = 'MORE ABOUT TEMPLE <i class="arrow right"></i>';
-        tDivSummary.appendChild(tALearnMore);
-    }*/
-
 // ******** ADD DIV SECTIONS TO CONTAINER ************************
 
     // ******** CREATE "SUMMARY" DIV ************************
         var tDIVFlex = document.createElement('div');
+        tDIVFlex.setAttribute("class", "flex");
 
     objContainer = (summaryOnly) ? tDIVFlex : templeInfoContainer;
     objContainer.appendChild(tDivTitle);
-    templeInfoContainer.appendChild(tDivInfo);
     objContainer.appendChild(tDivPic);
     objContainer.appendChild(tDivSummary);
-    templeInfoContainer.appendChild(tDivDetail);
+    objContainer.appendChild(tDivInfo);
+    objContainer.appendChild(tDivDetail);
 
-    
         templeInfoContainer.appendChild(tDIVFlex);
 }
 

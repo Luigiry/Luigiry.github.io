@@ -8,7 +8,7 @@
     position: static;
     transition: 0s;
     padding-top: 0px;
-    background-color: #409adf;
+    background-color: #407297;
 }
 .navigation > li:first-child { 
     display: none;
@@ -35,7 +35,7 @@
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #409adf;
+    background-color: #407297;
     text-align: left;
     padding: 0px;
 }
@@ -57,7 +57,7 @@
     display: block;
 }
 .active {
-    background-color: #3c749e;
+    background-color: #2a516e;
     color: white !important;
     padding: .2rem;
 }

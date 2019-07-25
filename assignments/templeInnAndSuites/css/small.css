@@ -33,32 +33,7 @@ header {
 }
 
 /*Navigation*/
-.logo img {
-    padding: 10px;
-    width: 100%;
-    min-width: 100px;
-    max-width: 225px;
-}
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-.logo-container > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-.logo-container > .logo {
-    display: flex;
-}
-.logo-container .logo a {
-    flex: 1;
-}
-.logo-nav {
-    text-align: right;
-    width: 100%;
-}
+
 nav .menuBtn a {
     padding: 20px 10px;
     text-decoration: none;
@@ -69,7 +44,7 @@ nav .menuBtn a {
     margin: 0;
     width: 100%;
     text-align: center;
-    background-color: #409adf;
+    background-color: #407297;
 }
  @media screen and (max-width: 275px) {
     .logo-container {
@@ -87,7 +62,7 @@ nav ul {
     list-style: none;
 }
 .navigation {
-    /*font-family: 'Marcellus CS', serif;*/
+    font-family: 'Cinzel Decorative', cursive;
     height: 100%;
     text-align: left;
     width: 0;
@@ -130,7 +105,7 @@ nav ul {
 .active {
     border-bottom: 5px solid #126419;
     padding-bottom: 5px;
-    background-color:#3c749e;
+    background-color: #2a516e;
 }
 .active a, .dropdown .active a {
     color: white !important;
@@ -145,10 +120,6 @@ nav ul {
 }
 .dropdown {
     padding-left: 30px;
-}
-.dropdown a {
-    color: #e9ea4d !important;
-    font-size: 1rem !important;
 }
 .dropdown a:hover {
     color: lightgray !important;
@@ -170,9 +141,15 @@ h2,h3,h4,h5{
     text-align: center;
     color: #2a5f88;
 }
-#summery{
+#summery, #mission, #contact{
     color: #2a5f88;
     text-align: center;
+}
+#mission{
+    font-size: 1.25rem;
+}
+#contact{
+    font-size: 1.125rem;
 }
 #Seattle-Temple{
     display: flex;
@@ -398,46 +375,16 @@ form label.top input:required:valid{
 .temple-summary-container { 
     font-family: 'Marcellus CS', serif;
     color: #409adf;
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-areas: 
-        "title"
-        "pic"
-        "info"
-        "summary"
-        "detail";
-    grid-gap: 1rem;
     max-width: 95%;  
 }
-.temple-title { 
-    grid-area: title;
-    font-family: 'Marcellus SC', serif;
- }
-.temple-info { grid-area: "info"; } 
-.temple-pic { grid-area: pic; }
-.temple-summary {grid-area: "summary"; } 
-.temple-detail { grid-area: "detail"; }
 
-/*.temple-pic img {
-    width: 100%;
-}*/
-
-.temple-detail-container h2 {
-    margin: 0;
+.temple-weather{
+    text-align: center;
 }
 
-.temple-detail-container h3 {
-    background-color: #6a6b1e;
-    color: white;
-    padding: 10px;
-    letter-spacing: 1px;
-    font-weight: normal;
-}
-
-.temple-detail-container p {
-    /* Allows the passed in \r\n to do line breaks, see address for the temple as an example */
-    /* white-space: pre; */
-    margin-top: 0;
+.temple-pic img {
+    width: 95%;
+    max-width: 50rem;
 }
 
 .temple-weather {
@@ -447,30 +394,23 @@ form label.top input:required:valid{
     font-size: 1.2rem;
 }
 
-.temple-summary-container, .temple-summary-container div div {
-    padding: 0 !important;
-    width: 100% !important;    
+.flex {
+    border: .125rem solid #407297;
+    border-radius: .25rem;
+    padding: 1rem;
+    width: 95%;
+    margin: 1rem 1rem 1rem 1rem; 
 }
 
-/*.temple-summary-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-direction: row;
-}*/
-
 .temple-summary-container div {
-    width: 260px;
+    /*width: 260px;*/
     margin: 0 auto;
 }
 
-#templeInfoContainer {
+/*#templeInfoContainer {
     width: 100%;
     padding: 0;
-}
-
-
+}*/
 
 /*Footer*/
 
