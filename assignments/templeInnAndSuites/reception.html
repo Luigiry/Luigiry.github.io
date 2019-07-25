@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/angel-moroni.jpg" alt="angel moroni">
+            <div id="header"><h1 class="title"> Temple Inn & Suites</h1>
+            <div class ="motto"><p>Helping you Serve</p></div></div>
+
+            <nav>
+                <script src="js/home.js"></script>
+                <div class="menuBtn"><a href="#" title="Menu" onclick="showMenu()">&#9776; MENU</a></div>
+                <ul id="nav" class="navigation" data-showing="false">
+                    <li><a href="javascript:void(0)" class="closeBtn" onclick="showMenu()">&times;</a></li>
+                    <li><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="temple.html" title="Temple">Temple</a></li>
+                    <li><a href="reservation.html" title="Reservation">Reservations</a></li>
+                    <li class="submenu active"><a href="services.html" title="Services">Services</a>
+                        <ul class="dropdown">
+                            <li class="active"><a href="reception.html" title="Reception Services">Reception</a></li>
+                            <li><a href="missionary.html" title="Full-time Missionary Services">Full-time Missionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Reception Services</h2>
+            <div class="reception">
+                <p>
+                    Each of our Inns has a reception hall that can be reserved to wedding receptions or other special occations.  
+                    This reception has access to a kitchen that can be used for food prepearation and serving.  We also have a simple catering menu you can take advantage of.
+                </p>   
+            </div>
+            <div class="reception" id="hall">
+                <h3>Reception Hall</h3>
+                <p>When you reserve our reception hall we will provide table, table cloths, chairs, dishes, silverware, and some basic decorations.
+                If you wish to decorate the hall yourselves our staff will be happy to help you.  Our reception halls have build in sound systems and plenty of room for dancing.
+                There will be staff on hand to help serve food and ensure that you enjoy reception, and don't worry about clean up our staff has it covered.</p>
+            </div>
+            <picture id="reception-hall">
+                    <source srcset="images/reception-hall700.jpg" media="(min-width: 600px)">
+                    <img class="reception-hall" src="images/reception-hall300.jpg" alt="Wedding reception hall">
+                </picture>
+            <div class="reception" id="catering">
+                <h3>Catering</h3>
+                <p>When you choose to have us cater your event you can pick 2 main courses, 2 sides, and a dessert. Additional selections are available for an addtional charge.</p>
+                <h4>Menu</h4>
+                <h5>Main Courses</h5>
+                <ul id="main-course">
+                    <li>Roast Chicken</li>
+                    <li>Sauteed Salmon</li>
+                    <li>Roast Beef</li>
+                </ul>
+                <h5>Sides</h5>
+                <ul id="sides">
+                    <li>Seasonal Vegitables</li>
+                    <li>Mashed Potatoes with Gravy</li>
+                    <li>Caeser Salad</li>
+                    <li>Green Salad</li>
+                </ul>
+                <h5>Desserts</h5>
+                <ul id="desserts">
+                    <li>Cake (choice of chocolate, white, or lemon) </li>
+                    <li>Fruit Pie (choice of key lime, apple, or strawberry)</li>
+                    <li>Ice Cream (vanilla, chocolate, strawberry)</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2019 Temple Inn & Suites | <script src="js/currentdate.js"></script> | <a href="resource.html" title="" id="resource">Resources</a> </p>
+        </footer>
+    </body>
+</html>

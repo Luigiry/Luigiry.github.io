@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/angel-moroni.jpg" alt="angel moroni">
+            <div id="header"><h1 class="title"> Temple Inn & Suites</h1>
+            <div class ="motto"><p>Helping you Serve</p></div></div>
+
+            <nav>
+                <script src="js/home.js"></script>
+                <div class="menuBtn"><a href="#" title="Menu" onclick="showMenu()">&#9776; MENU</a></div>
+                <ul id="nav" class="navigation" data-showing="false">
+                    <li><a href="javascript:void(0)" class="closeBtn" onclick="showMenu()">&times;</a></li>
+                    <li class="active"><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="temple.html" title="Temple">Temple</a></li>
+                    <li><a href="reservation.html" title="Reservation">Reservations</a></li>
+                    <li class="submenu"><a href="services.html" title="Services">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="reception.html" title="Reception Services">Reception</a></li>
+                            <li><a href="missionary.html" title="Full-time Missionary Services">Full-time Missionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Resources</h2>
+            <ul class="resource">
+                <li>Temple Information provided by <a href="https://www.churchofjesuschrist.org/temples/list" title="Temple List">The Church of Jesus Christ of Latter-Day Saints</a></li>
+                <li>Weather by <a href="https://OpenWeatherMap.org" tilte="OpenWeatherMap">OpenWeatherMap.org</a></li>
+            </ul>
+        </main>
+        <footer>
+            <p>&copy; 2019 Temple Inn & Suites | <script src="js/currentdate.js"></script> | <a href="resource.html" title="" id="resource">Resources</a> </p>
+        </footer>
+    </body>
+</html>

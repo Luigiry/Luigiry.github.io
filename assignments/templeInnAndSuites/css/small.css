@@ -1,0 +1,484 @@
+/*Header*/
+header {
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightskyblue;
+    width: 100%;
+    border: 2px solid #3c749e;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+.title{
+    text-align: center;
+    color:white;
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+    padding: 0rem;
+}
+.motto{
+    margin-top: 0rem;
+    text-align: center;
+    color: white;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+/*Navigation*/
+.logo img {
+    padding: 10px;
+    width: 100%;
+    min-width: 100px;
+    max-width: 225px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.logo-container > .logo {
+    display: flex;
+}
+.logo-container .logo a {
+    flex: 1;
+}
+.logo-nav {
+    text-align: right;
+    width: 100%;
+}
+nav .menuBtn a {
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #409adf;
+}
+ @media screen and (max-width: 275px) {
+    .logo-container {
+        flex-direction: column;
+        align-items: unset;
+    }
+    nav .menuBtn a {
+        width: 100% !important;
+        margin: 0;
+    }
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navigation {
+    /*font-family: 'Marcellus CS', serif;*/
+    height: 100%;
+    text-align: left;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #409adf;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 4rem;
+    border: 2px solid lightskyblue;
+    border-radius: .5rem;
+}
+ 
+.navigation li a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.navigation li a:hover {
+    color: lightgray;
+} 
+.navigation .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2.5rem;
+    margin-left: 50px;
+}
+.menuBtn, .closeBtn {
+    display: block;
+}
+.navigation img {
+    display: none;
+}
+.active {
+    border-bottom: 5px solid #126419;
+    padding-bottom: 5px;
+    background-color:#3c749e;
+}
+.active a, .dropdown .active a {
+    color: white !important;
+}
+.dropdown li a {
+    color:white !important;
+}
+.dropdown .active {
+    background-color:#126419;
+    border-bottom: unset;
+    padding-bottom: unset;
+}
+.dropdown {
+    padding-left: 30px;
+}
+.dropdown a {
+    color: #e9ea4d !important;
+    font-size: 1rem !important;
+}
+.dropdown a:hover {
+    color: lightgray !important;
+}
+
+/*Body*/
+article{
+    font-family: 'Marcellus SC', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    padding: .25rem;
+    width: 90%;
+    border: .125rem solid #407297;
+    border-radius: .5rem;
+}
+h2,h3,h4,h5{
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+    color: #2a5f88;
+}
+#summery{
+    color: #2a5f88;
+    text-align: center;
+}
+#Seattle-Temple{
+    display: flex;
+    justify-content: center;  
+}
+.reservation{
+    display: block;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: #5ca5dd;
+    border: 2px solid #407297;  
+    border-radius: .25rem;
+    padding: .25rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#services{
+    font-family: 'Marcellus SC', serif;
+    color:#2a5f88;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    padding: .25rem;
+}
+.free-amenities{
+    border: .125rem solid #407297;
+    border-radius: .5rem;
+}
+#free-services{
+    list-style-type: none;
+}
+.specialized-services{
+    border: .125rem solid #407297;
+    border-radius: .5rem;
+}
+#specialized-services{
+    list-style-type: none;
+}
+
+#family-temple{
+    display: flex;
+    justify-content: center; 
+    padding: 1rem; 
+}
+.reception{
+    color: #2a5f88;
+    font-family: 'Marcellus CS', serif;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#hall,#catering{
+    border-radius: .5rem;
+    border: .125rem solid #407297;
+    margin-top: 1rem;
+    text-align: center;
+    padding: .25rem;
+}
+#main-course{
+    list-style-type: none;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0rem;
+}
+#sides{
+    list-style-type: none;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0rem;
+}
+#desserts{
+    list-style-type: none;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0rem;
+}
+#reception-hall{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+/*Contact Info*/
+#Contact-info{
+    font-family: 'Marcellus SC', serif;
+    margin: 1rem;
+    border: .125rem solid #407297;
+    border-radius: .25rem;
+    color: #407297;
+}
+#thankyou{
+    color: #2a5f88;
+    text-align: center;
+}
+
+.kitchenette-pic{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    padding: 2rem;
+    border: .125rem solid #407297;
+    border-radius: .25rem;
+    max-width: 90%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#resource{
+    color: white;
+}
+.resource{
+    color: #2a5f88;
+    text-align: center;
+    list-style-type: none;
+}
+
+/*Contact Form*/
+#contactform{
+    margin: 1rem;
+    border: .125rem solid #407297;
+    border-radius: .5rem;
+}
+form fieldset{
+    margin: 1em;
+    border: .0625rem solid #407297;
+    border-radius: .5rem;
+}
+legend{
+    color: #2a5f88;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #2a5f88;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    border: .03125rem solid #407297;
+    border-radius: .25rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 18rem;
+    background-color: whitesmoke;
+
+}
+form label.side{
+    display: block;
+    padding: .75rem;
+    color: #2a5f88;
+}
+form input.button{
+    border: none;
+    background-color: #5ca5dd;
+    color: white;
+    border-radius: .5rem;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    width: 96%;
+    max-width: 18rem;
+    padding: .75rem 1.5rem;
+}
+textarea{
+    background-color: whitesmoke;
+    border-radius: .25rem;
+    width: 100%;
+    max-width: 18rem;
+}
+form label.top input:required {
+    background-color: #ffc7c7;
+}
+form label.top input:required:valid{
+    background-color: #cafac4;
+}
+.button{
+    display: block;
+    font-family: 'Marcellus CS', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: #5ca5dd;
+    border: 2px solid #407297;  
+    border-radius: .25rem;
+    padding: .25rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#reservationform{
+    display: flex;
+    flex-direction: column;
+    border: .125rem solid #407297;
+    border-radius: .5rem;
+    margin: .25rem;
+}
+
+/*Temple Page*/
+
+.temple-summary-container { 
+    font-family: 'Marcellus CS', serif;
+    color: #409adf;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+        "title"
+        "pic"
+        "info"
+        "summary"
+        "detail";
+    grid-gap: 1rem;
+    max-width: 95%;  
+}
+.temple-title { 
+    grid-area: title;
+    font-family: 'Marcellus SC', serif;
+ }
+.temple-info { grid-area: "info"; } 
+.temple-pic { grid-area: pic; }
+.temple-summary {grid-area: "summary"; } 
+.temple-detail { grid-area: "detail"; }
+
+/*.temple-pic img {
+    width: 100%;
+}*/
+
+.temple-detail-container h2 {
+    margin: 0;
+}
+
+.temple-detail-container h3 {
+    background-color: #6a6b1e;
+    color: white;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.temple-detail-container p {
+    /* Allows the passed in \r\n to do line breaks, see address for the temple as an example */
+    /* white-space: pre; */
+    margin-top: 0;
+}
+
+.temple-weather {
+    font-family: 'Marcellus SC', serif;
+    color: #409adf;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.temple-summary-container, .temple-summary-container div div {
+    padding: 0 !important;
+    width: 100% !important;    
+}
+
+/*.temple-summary-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}*/
+
+.temple-summary-container div {
+    width: 260px;
+    margin: 0 auto;
+}
+
+#templeInfoContainer {
+    width: 100%;
+    padding: 0;
+}
+
+
+
+/*Footer*/
+
+footer{
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+    padding: .70rem;
+    margin: 1rem;
+}

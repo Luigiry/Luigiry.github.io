@@ -1,0 +1,8 @@
+.kitchenette-pic{
+    grid-template-columns: 1fr 1fr;
+    column-gap: .5rem;
+    max-width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/large.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="images/angel-moroni.jpg" alt="angel moroni">
+            <div id="header"><h1 class="title"> Temple Inn & Suites</h1>
+            <div class ="motto"><p>Helping you Serve</p></div></div>
+
+            <nav>
+                <script src="js/home.js"></script>
+                <div class="menuBtn"><a href="#" title="Menu" onclick="showMenu()">&#9776; MENU</a></div>
+                <ul id="nav" class="navigation" data-showing="false">
+                    <li><a href="javascript:void(0)" class="closeBtn" onclick="showMenu()">&times;</a></li>
+                    <li><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="temple.html" title="Temple">Temple</a></li>
+                    <li><a href="reservation.html" title="Reservation">Reservations</a></li>
+                    <li class="submenu active"><a href="services.html" title="Services">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="reception.html" title="Reception Services">Reception</a></li>
+                            <li class="active"><a href="missionary.html" title="Full-time Missionary Services">Full-time Missionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Full-Time Missionarys</h2>
+            <article>
+                <p>We offer specific rooms for full-time missionaries serving in the temple. We understand that your needs are different than the average temple paton. We have rooms design for you to stay in long term that include kitchenettes!</p>
+            </article>
+            <div class="kitchenette-pic">
+                <picture class="kitchenette">
+                        <source srcset="images/kitchenette-a700.jpg" media="(min-width: 600px)">
+                        <img class="Seattle-Temple" src="images/kitchenette-a300.jpg" alt="Seattle Temple">
+                </picture>
+                <picture class="kitchenette">
+                    <source srcset="images/kitchenette-b700.jpg" media="(min-width: 600px)">
+                    <img class="Seattle-Temple" src="images/kitchenette-b300.jpg" alt="Seattle Temple">
+                </picture>
+                <picture class="kitchenette">
+                    <source srcset="images/kitchenette-c700.jpg" media="(min-width: 600px)">
+                    <img class="Seattle-Temple" src="images/kitchenette-c300.jpg" alt="Seattle Temple">
+                </picture>
+                <picture class="kitchenette">
+                    <source srcset="images/kitchenette-d700.jpg" media="(min-width: 600px)">
+                    <img class="Seattle-Temple" src="images/kitchenette-d300.jpg" alt="Seattle Temple">
+                </picture>
+            </div>
+            <h2>Contact Us</h2>
+            <form method="get" action="thanks.html" id="contactform">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fname" minlength="5" pattern="[a-zA-Z\s]+" required></label>
+                    <label class="top">Email* <input type="text" name="Email" placeholder="youremail@email.com" required></label>
+                    <label class="top">Phone Number* <input type="tel" name="Phone" required></label>
+                </fieldset>    
+                <fieldset>
+                    <legend>Comments</legend>
+                    <textarea name="comment" from="contactform" placeholder="Additional information or comments"></textarea>
+                </fieldset>
+                <input type="submit" value="Request Details" class="button">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2019 Temple Inn & Suites | <script src="js/currentdate.js"></script> | <a href="resource.html" title="" id="resource">Resources</a> </p>
+        </footer>
+    </body>
+</html>

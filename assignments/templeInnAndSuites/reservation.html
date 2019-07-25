@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/angel-moroni.jpg" alt="angel moroni">
+            <div id="header"><h1 class="title"> Temple Inn & Suites</h1>
+            <div class ="motto"><p>Helping you Serve</p></div></div>
+
+            <nav>
+                <script src="js/home.js"></script>
+                <div class="menuBtn"><a href="#" title="Menu" onclick="showMenu()">&#9776; MENU</a></div>
+                <ul id="nav" class="navigation" data-showing="false">
+                    <li><a href="javascript:void(0)" class="closeBtn" onclick="showMenu()">&times;</a></li>
+                    <li><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="temple.html" title="Temple">Temple</a></li>
+                    <li class="active"><a href="reservation.html" title="Reservation">Reservations</a></li>
+                    <li class="submenu"><a href="services.html" title="Services">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="reception.html" title="Reception Services">Reception</a></li>
+                            <li><a href="missionary.html" title="Full-time Missionary Services">Full-time Missionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Reservations</h2>
+            <form method="get" action="thanks.html" id="reservationform">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fname" minlength="5" pattern="[a-zA-Z\s]+" required></label>
+                    <label class="top">Email* <input type="text" name="Email" placeholder="youremail@email.com" required></label>
+                    <label class="top">Phone Number* <input type="tel" name="Phone" required></label>
+                    <label class="top">Home State/Country<input type="text" name="State/Country"></label>
+                </fieldset>    
+                <fieldset>
+                    <legend>Accomodations</legend>
+                    <label class="top">Location <input list="location" placeholder="Please Select"></label>
+                    <datalist id="location">
+                        <option value=""></option>
+                        <option value="Logan"></option>
+                        <option value="Seattle"></option>
+                        <option value="Portland"></option>
+                        <option value="St. George"></option>
+                    </datalist>
+                    <label class="top">Start of Stay<input type="date" name="date of stay"></label>
+                    <label class="top">End of Stay<input type="date" name="end of stay"></label>
+                    <label class="top">Number of Rooms<input type="number" name="number of rooms"></label>
+                    <label class="top">Type of Rooms<input list="room type" placeholder="Please Select"></label>
+                    <datalist id="room type">
+                        <option value=""></option>
+                        <option value="Family Suite"></option>
+                        <option value="King Suite"></option>
+                        <option value="Queen Suite"></option>
+                        <option value="2 Queen Suite"></option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Accomodations and Comments</legend>
+                    <textarea name="comment" from="contactform" placeholder="Special accommodations or comments"></textarea>
+                </fieldset>
+                <input type="submit" value="Make Reservation" class="button">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2019 Temple Inn & Suites | <script src="js/currentdate.js"></script> | <a href="resource.html" title="" id="resource">Resources</a> </p>
+        </footer>
+    </body>
+</html>

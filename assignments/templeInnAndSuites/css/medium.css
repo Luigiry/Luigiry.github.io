@@ -1,0 +1,70 @@
+/*Navigation*/
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    height: unset;
+    width: unset !important;
+    position: static;
+    transition: 0s;
+    padding-top: 0px;
+    background-color: #409adf;
+}
+.navigation > li:first-child { 
+    display: none;
+}
+.navigation li {
+    margin: 10px;
+    text-align: center;
+}
+.navigation li a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    transition: none;
+    width: 100%;
+  }
+.navigation li a:hover {
+    color: lightgray;
+}
+.menuBtn, .closeBtn {
+    display: none !important;
+    position: static;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #409adf;
+    text-align: left;
+    padding: 0px;
+}
+.dropdown a {
+    display: block;
+    text-align: left;
+    padding: 4px !important;
+}
+.dropdown a:hover {
+    color: gray;
+}
+.submenu:hover .dropdown {
+    display: block;
+}
+.title-container {
+    grid-template-columns: 2fr 1fr;
+}
+.motto {
+    display: block;
+}
+.active {
+    background-color: #3c749e;
+    color: white !important;
+    padding: .2rem;
+}
+.navigation img {
+    display: inline;
+}
+
+.kitchenette-pic{
+    grid-template-columns: 1fr;
+}

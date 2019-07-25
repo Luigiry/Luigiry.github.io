@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+        <title>Temple Inn & Suites</title>
+        <meta name="description" content="Temple Inn & Suites">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Marcellus+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="css/medium.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/angel-moroni.jpg" alt="angel moroni">
+            <div id="header"><h1 class="title"> Temple Inn & Suites</h1>
+            <div class ="motto"><p>Helping you Serve</p></div></div>
+
+            <nav>
+                <script src="js/home.js"></script>
+                <div class="menuBtn"><a href="#" title="Menu" onclick="showMenu()">&#9776; MENU</a></div>
+                <ul id="nav" class="navigation" data-showing="false">
+                    <li><a href="javascript:void(0)" class="closeBtn" onclick="showMenu()">&times;</a></li>
+                    <li><a href="home.html" title="Home">Home</a></li>
+                    <li><a href="temple.html" title="Temple">Temple</a></li>
+                    <li><a href="reservation.html" title="Reservation">Reservation</a></li>
+                    <li class="submenu active"><a href="services.html" title="Services">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="reception.html" title="Reception Services">Reception</a></li>
+                            <li><a href="missionary.html" title="Full-time Missionary Services">Full-time Missionary</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Services</h2>
+            <div id="services">
+                <div class="free-amenities">
+                    <h3>Free Amenities</h3>
+                    <ul id="free-services">
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <li>Indoor Pool</li>
+                        <li>WiFi high-spped internet access</li>
+                        <li>Smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple Shuttle</li>
+                        <li>Family history consultation and family ordinance card service</li>
+                    </ul>
+                </div>  
+                <br>
+                <div class="specialized-services">
+                    <h3>Specialized Services</h3>
+                    <ul id="specialized-services">
+                        <li>Free access to changing room to put on church cloths</li>
+                        <li>Low cost short term babysitting with playroom</li>
+                        <li>Long-term stay accommodation in kitchenette suites for full-time temple missionaries</li>
+                        <li>Temple history themed reception and sitting area</li>
+                        <li>Wedding reception hall with catering and kitchen access</li>
+                        <li>Family search center that supports family search and ordinacne work</li>
+                        <li>Low cost caffateria for meals</li>
+                    </ul>
+                </div>
+            </div>
+                <picture id="family-temple">
+                    <source srcset="images/family-temple700.jpg" media="(min-width: 600px)">
+                    <img class="family-temple" src="images/family-temple300.jpg" alt="Family at the temple">
+                </picture>
+        </main>
+        <footer>
+            <p>&copy; 2019 Temple Inn & Suites | <script src="js/currentdate.js"></script> | <a href="resource.html" title="" id="resource">Resources</a> </p>
+        </footer>
+    </body>
+</html>

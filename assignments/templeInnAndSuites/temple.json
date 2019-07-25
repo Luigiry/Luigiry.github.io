@@ -1,8 +1,8 @@
 {"temples":[{
     "address": {
-        "name": "Logan",
         "street": "175 N 300 E",
         "city": "Logan",
+        "name": "Logan",
         "state_abbr": "UT",
         "state": "Utah",
         "postal": "84321-4720",
