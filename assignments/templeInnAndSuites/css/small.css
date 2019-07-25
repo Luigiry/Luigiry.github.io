@@ -95,11 +95,11 @@ nav ul {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #409adf;
+    background-color: #407297;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 4rem;
-    border: 2px solid lightskyblue;
+    border: 2px solid #3c749e;
     border-radius: .5rem;
 }
  
