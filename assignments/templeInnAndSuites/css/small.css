@@ -11,7 +11,7 @@ header {
 #header{
     margin-left: auto;
     margin-right: auto;
-    background-color: #409adf;
+    background-color: #407297;
     width: 100%;
     border: 2px solid #3c749e;
     border-radius: .5rem;
@@ -189,7 +189,7 @@ h2,h3,h4,h5{
     margin-left: auto;
     margin-right: auto;
     align-content: center;
-    background-color: #5ca5dd;
+    background-color: #2a5f88;
     border: 2px solid #407297;  
     border-radius: .25rem;
     padding: .25rem;
@@ -475,7 +475,7 @@ form label.top input:required:valid{
 /*Footer*/
 
 footer{
-    background-color: #409adf;
+    background-color: #407297;
     color: white;
     text-align: center;
     font-size: .75rem;
