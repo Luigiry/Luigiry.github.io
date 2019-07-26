@@ -33,7 +33,6 @@ header {
 }
 
 /*Navigation*/
-
 nav .menuBtn a {
     padding: 20px 10px;
     text-decoration: none;
@@ -174,7 +173,6 @@ h2,h3,h4,h5{
     text-decoration: none;
     text-align: center;
 }
-
 #services{
     font-family: 'Marcellus SC', serif;
     color:#2a5f88;
@@ -199,7 +197,6 @@ li{
 #specialized-services{
     list-style-type: none;
 }
-
 #family-temple{
     display: flex;
     justify-content: center; 
@@ -211,8 +208,6 @@ li{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 #hall,#catering{
     border-radius: .5rem;
@@ -371,7 +366,6 @@ form label.top input:required:valid{
 }
 
 /*Temple Page*/
-
 .temple-summary-container { 
     font-family: 'Marcellus CS', serif;
     color: #409adf;
@@ -403,17 +397,11 @@ form label.top input:required:valid{
 }
 
 .temple-summary-container div {
-    /*width: 260px;*/
     margin: 0 auto;
 }
 
-/*#templeInfoContainer {
-    width: 100%;
-    padding: 0;
-}*/
 
 /*Footer*/
-
 footer{
     background-color: #407297;
     color: white;
